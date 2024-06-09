@@ -1,3 +1,6 @@
+THIS WORKS ON 8GB RAM!!! DON'T DISABLE PHANTOM PROCESSOR KILLER DOING THIS WILL MAKE ALL STABLE DIFFUSION TERMUX CRASH!!!
+
+
 # FOOOCUS_ANDROID_TERMUX
 I've done it once again we can use fooocus on Android yes sdxl works!!!
 also make sure u have high end phone 12gb ram minimum!! and enable developer option 
