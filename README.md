@@ -23,6 +23,13 @@ cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu
 
 5> cd Fooocus
 
+
+'Fix' the issue with Python running in PRoot
+
+export ANDROID_DATA=anything 
+
+
+
 6> pip install -r requirements_versions.txt
 
 7> python launch.py --preset realistic --vae-in-fp16 --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu  --all-in-fp16 --unet-in-fp8-e5m2 --preview-option taesd --disable-server-log --disable-async-cuda-allocation
