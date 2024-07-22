@@ -1,4 +1,4 @@
-Holy $%!+ This Works on 12gb Ram!!!
+Holy Moly!!!! This Works on 12gb Ram!!!
 
 # FOOOCUS_ANDROID_TERMUX
 
