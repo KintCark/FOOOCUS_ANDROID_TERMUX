@@ -3,11 +3,9 @@ Holy $%!+ This Works on 12gb Ram!!!
 # FOOOCUS_ANDROID_TERMUX
 
 The New 2.5.0 Update Works On 12gb Ram Cpu Mode
-I had to use developer advanced settings to use this u can use sd1.5 and sdxl also change refiner to vae mode and
-use sd15 2gb pruned models only 4gb idk about 3gb but 4gb and Up won't work they run up ram.I used ssd-1b distilled sdxl for more memory saved.
+I had to use developer advanced settings to use this u can use sd1.5 and sdxl also change refiner to separate mode and
+use sd15 2gb pruned models only, 4gb idk about 3gb but 4gb and Up won't work they run up ram. also in developer tab disable soft controller and enable skip preprocessors,I can make 7:9 images with these settings,also put the termux app and stargon browser app in split screen,that's the only way you can run without crash,some reason sdxl only works when termux is in the foreground, u can't run sdxl with termux as background process.
 now I can use fooocus officially on my phone!
-Also go into developer options and enable skip preprocessor that will also save memory yes the advanced tab developer options is your friend don't use the presets like speed quality etc.... enable developer and overide the width and height of your image to at least for me 320x512 for sdxl. if u override refiner you can put it at 0 idk if that made it switch instantly or cause when I did it it switched on last step maybe cause I used vae refiner mode but enjoy and I changed the command args for more memory saved.;)
-
 
 
 
