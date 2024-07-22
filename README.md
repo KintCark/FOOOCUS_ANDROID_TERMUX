@@ -1,14 +1,14 @@
-THIS WORKS ON 16GB RAM!!! ONLY
+Holy $%!+ This Works on 12gb Ram!!!
 
 # FOOOCUS_ANDROID_TERMUX
-I've done it once again we can use fooocus on Android yes sdxl works!!!
-also make sure u have high end phone 12gb ram minimum!! and enable developer option 
-and disable background processes to free more ram!!
 
-YOU NEED THIS TERMUX MOD VERSION THIS IS THE ONE I USED!
+The New 2.5.0 Update Works On 12gb Ram Cpu Mode
+I had to use developer advanced settings to use this u can use sd1.5 and sdxl also change refiner to vae mode and I used miniSD.ckpt
+it's trained on 256x256 images plus I used ssd-1b distilled sdxl for more memory saved.
+now I can use fooocus officially on my phone!
+Also go into developer options and enable skip preprocessor that will also save memory yes the advanced tab developer options is your friend don't use the presets like speed quality etc.... enable developer and overide the width and height of your image to at least for me 320x512 for sdxl. if u override refiner you can put it at 0 idk if that made it switch instantly or cause when I did it it switched on last step maybe cause I used vae refiner mode but enjoy and I changed the command args for more memory saved.;)
 
 
-https://github.com/KitsunedFox/termux-monet
 
 
 1> pkg updated && pkg upgrade -y && termux-setup-storage &&
@@ -32,16 +32,10 @@ export ANDROID_DATA=anything
 
 6> pip install -r requirements_versions.txt
 
-7> python launch.py --preset realistic --vae-in-fp16 --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu  --all-in-fp16 --unet-in-fp8-e5m2 --preview-option taesd --disable-server-log --disable-async-cuda-allocation
-
-7> python launch.py --preset anime --vae-in-fp16 --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu  --all-in-fp16 --unet-in-fp8-e5m2 --preview-option taesd --disable-server-log --disable-async-cuda-allocation
-
 WHEN YOU RESTART TERMUX 
 
 cd ubuntu-in-termux && ./startubuntu.sh
 
-cd Fooocus
+cd Fooocus && python launch.py --preset realistic --vae-in-bf16 --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu --all-in-fp16 --unet-in-fp8-e4m3fn --preview-option taesd --disable-server-log --disable-async-cuda-allocation
 
-python launch.py --preset realistic --vae-in-fp16 --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu  --all-in-fp16 --unet-in-fp8-e5m2 --preview-option taesd --disable-server-log --disable-async-cuda-allocation
-
-python launch.py --preset anime --vae-in-fp16 --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu  --all-in-fp16 --unet-in-fp8-e5m2 --preview-option taesd --disable-server-log --disable-async-cuda-allocation
+cd Fooocus && python launch.py --preset anime --vae-in-bf16 --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu --all-in-fp16 --unet-in-fp8-e4m3fn --preview-option taesd --disable-server-log --disable-async-cuda-allocation
