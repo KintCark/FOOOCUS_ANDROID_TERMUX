@@ -2,11 +2,10 @@ Holy Moly!!!! This Works on 12gb Ram!!!
 
 # FOOOCUS_ANDROID_TERMUX
 
-The New 2.5.0 Update Works On 12gb Ram Cpu Mode
-I had to use developer advanced settings to use this u can use sd1.5 and sdxl also change refiner to separate mode and
-use sd15 2gb pruned models only, 4gb idk about 3gb but 4gb and Up won't work they run up ram. also in developer tab disable soft controller and enable skip preprocessors,I can make 7:9 images with these settings,also put the termux app and stargon browser app in split screen,that's the only way you can run without crash,some reason sdxl only works when termux is in the foreground, u can't run sdxl with termux as background process.
+The New 2.5.2 Update Works On 12gb Ram Cpu Mode
 now I can use fooocus officially on my phone!
-
+with the new auto clone unloaded feature I can now run fooocus flawlessly download swap file no root app pay the 1 dollar premium fee crank it all the way to 8gb then if u have ram plus feature enable that also ull have 16gb extra swap memory this is one reason fooocus is working, you no longer need developer options!
+😉 Enjoy! but warning useing high resolution will make your phone H0T!!
 
 
 1> pkg updated && pkg upgrade -y && termux-setup-storage &&
