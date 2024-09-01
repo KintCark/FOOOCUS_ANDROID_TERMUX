@@ -2,7 +2,7 @@ Holy Moly!!!! This Works on 12gb Ram!!!
 
 # FOOOCUS_ANDROID_TERMUX
 
-The New 2.5.2 Update Works On 12gb Ram Cpu Mode
+The New 2.5.5 Update Works On 12gb Ram Cpu Mode
 now I can use fooocus officially on my phone!, download swap file no root app pay the 1 dollar premium fee crank it all the way to 8gb then if u have ram plus feature enable that also ull have 16gb extra swap memory this is one reason fooocus is working 
 😉 Enjoy! but warning useing high resolution will make your phone H0T!! you still need developer options it ran fine for first boo y but now it's crashing again so use developer option I can do w 512 h 1024 It gives great sdxl photos for speed.
 
