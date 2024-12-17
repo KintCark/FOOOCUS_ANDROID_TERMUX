@@ -26,7 +26,7 @@ export ANDROID_DATA=anything
 
 
 
-6> pip install -r requirements_versions.txt
+6> pip install -r requirements_versions.txt --break-system-packages
 
 WHEN YOU RESTART TERMUX 
 
