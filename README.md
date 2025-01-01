@@ -13,7 +13,7 @@ cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu
 
 2> apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y 
 
-3> apt-get install libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y
+3> apt-get install libgl1 libglib2.0 libsm6 libxrender1 libxext6 -y
 
 4> git clone https://github.com/lllyasviel/Fooocus
 
