@@ -1,7 +1,6 @@
 Holy Moly!!!! This Works on 12gb Ram!!!
 
-FOOOCUS_ANDROID_TERMUX
-The New 2.5.2 Update Works On 12gb Ram Cpu Mode I had to use developer advanced settings to use this u can use sd1.5 and sdxl also change refiner to separate mode and use sd15 2gb pruned models only, 4gb idk about 3gb but 4gb and Up won't work they run up ram. also in developer tab disable soft controller and enable skip preprocessors,I can make 7:9 images with these settings,also put the termux app and stargon browser app in split screen,that's the only way you can run without crash,some reason sdxl only works when termux is in the foreground, u can't run sdxl with termux as background process. now I can use fooocus officially on my phone!
+sorry guys and gals fooocus is broken we haven't had an update in 6 months I hope fooocus isn't dead I really liked it but I tried running it and it just sits on waiting to begin task¿
 
 1> pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
 
