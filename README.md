@@ -1,37 +1,27 @@
 Holy Moly!!!! This Works on 12gb Ram!!!
 
-# FOOOCUS_ANDROID_TERMUX
+FOOOCUS_ANDROID_TERMUX
+The New 2.5.2 Update Works On 12gb Ram Cpu Mode I had to use developer advanced settings to use this u can use sd1.5 and sdxl also change refiner to separate mode and use sd15 2gb pruned models only, 4gb idk about 3gb but 4gb and Up won't work they run up ram. also in developer tab disable soft controller and enable skip preprocessors,I can make 7:9 images with these settings,also put the termux app and stargon browser app in split screen,that's the only way you can run without crash,some reason sdxl only works when termux is in the foreground, u can't run sdxl with termux as background process. now I can use fooocus officially on my phone!
 
-The New 2.5.5 Update Works On 12gb Ram Cpu Mode
-now I can use fooocus officially on my phone!, download swap file no root app pay the 1 dollar premium fee crank it all the way to 8gb then if u have ram plus feature enable that also ull have 16gb extra swap memory this is one reason fooocus is working 
-😉 Enjoy! but warning useing high resolution will make your phone H0T!! you still need developer options it ran fine for first boo y but now it's crashing again so use developer option I can do w 512 h 1024 It gives great sdxl photos for speed.
+1> pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
 
-
-1> pkg updated && pkg upgrade -y && termux-setup-storage &&
-pkg install wget -y && pkg install git -y && pkg install proot -y &&
-cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh 
-
-2> apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y 
-
-3> apt-get install libgl1 libglib2.0 libsm6 libxrender1 libxext6 -y
+2> apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-pip python3-venv python-is-python3 -y && apt dist-upgrade -y && apt install wget && apt-get install libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y && apt-get install google-perftools &&
+apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 --break-system-packages && apt-get install -y build-essential python3-dev python3-setuptools make cmake && apt-get install -y ffmpeg libavcodec-dev libavfilter-dev libavformat-dev libavutil-dev
 
 4> git clone https://github.com/lllyasviel/Fooocus
 
 5> cd Fooocus
 
-
 'Fix' the issue with Python running in PRoot
 
-export ANDROID_DATA=anything 
+export ANDROID_DATA=anything
 
+6> pip install -r requirements_versions.txt
 
-
-6> pip install -r requirements_versions.txt --break-system-packages
-
-WHEN YOU RESTART TERMUX 
+WHEN YOU RESTART TERMUX
 
 cd ubuntu-in-termux && ./startubuntu.sh
 
-cd Fooocus && python launch.py --preset realistic --vae-in-fp16 --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu --all-in-fp16 --unet-in-fp8-e4m3fn --disable-server-log --disable-async-cuda-allocation
+cd Fooocus && python launch.py --preset realistic --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu --all-in-fp16 --unet-in-fp8-e4m3fn --disable-server-log --disable-async-cuda-allocation
 
-cd Fooocus && python launch.py --preset anime --vae-in-fp16 --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu --all-in-fp16 --unet-in-fp8-e4m3fn --disable-server-log --disable-async-cuda-allocation
+cd Fooocus && python launch.py --preset anime --vae-in-bf16 --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu --all-in-fp16 --unet-in-fp8-e4m3fn --preview-option taesd --disable-server-log --disable-async-cuda-allocation
