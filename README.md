@@ -1,3 +1,41 @@
+Before installing virtual environment
+make sure u install ubuntu in termux first 
+
+
+Looks like Python 3.12 actually Works!! U have to create a virtual environment so here is the guide:
+
+
+To run ComfyUI in a separate environment on Termux with Python 3.10.11, follow these steps:
+
+
+---
+
+1. Install Required Packages
+
+First, ensure your Termux is updated and install necessary packages:
+
+apt update -y && apt upgrade -y
+apt install python3-full git ffmpeg
+
+
+---
+
+2. Install & Setup a Virtual Environment
+
+Create and activate a virtual environment:
+
+python3 -m venv comfyui-env
+source comfyui-env/bin/activate
+
+
+
+
+
+
+
+
+
+
 Holy Moly!!!! This Works on 12gb Ram!!!
 
 sorry guys and gals fooocus is broken we haven't had an update in 6 months I hope fooocus isn't dead I really liked it but I tried running it and it just sits on waiting to begin task¿
