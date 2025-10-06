@@ -47,13 +47,17 @@ apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 && apt-get ins
 
 4> git clone https://github.com/lllyasviel/Fooocus
 
-5> cd Fooocus
+5> cd FooocusPlus
 
 'Fix' the issue with Python running in PRoot
 
 export ANDROID_DATA=anything
 
 6> pip install -r requirements_versions.txt
+
+and
+
+pip install -r requirements_patch.txt
 
 WHEN YOU RESTART TERMUX
 
