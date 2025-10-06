@@ -57,7 +57,7 @@ export ANDROID_DATA=anything
 
 WHEN YOU RESTART TERMUX
 
-cd ubuntu-in-termux && ./startubuntu.sh
+./start-ubuntu22.sh
 
 cd Fooocus && python launch.py --preset realistic --always-offload-from-vram --vae-in-cpu --clip-in-fp8-e4m3fn --attention-split --always-cpu --all-in-fp16 --unet-in-fp8-e4m3fn --disable-server-log --disable-async-cuda-allocation
 
